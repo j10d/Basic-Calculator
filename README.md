@@ -29,6 +29,27 @@ python app.py
 http://localhost:5000
 ```
 
+### Running Tests
+
+The project includes a comprehensive test suite for the calculator UI functionality. To run the tests:
+
+1. Run all tests:
+```bash
+pytest test_app.py
+```
+
+2. Run tests with verbose output:
+```bash
+pytest test_app.py -v
+```
+
+3. Run a specific test class or method:
+```bash
+pytest test_app.py::TestCalculatorUI::test_addition
+```
+
+The test suite covers all calculator operations including addition, subtraction, multiplication, division, percentage calculations, number negation, and edge cases like division by zero and invalid inputs.
+
 ### Project Structure
 ```
 .
